@@ -29,6 +29,28 @@ screens = [
                     highlight_method='text',
                     this_current_screen_border = colors['yellow'],
                     active = colors['blue'],
+                    background = "#101213",
+                    ),
+                widget.TextBox(
+                    text='\uE0B0',
+                    foreground="#101213",
+                    background=colors['grey'],
+                    padding=0,
+                    fontsize = 35,
+                    ),
+                widget.WindowName(
+                    background = colors['grey'],
+                    format = "{name}",
+                    foreground = colors['fg'],
+                    empty_group_string = 'Desktop',
+                    width = 400,
+                    ),
+                widget.TextBox(
+                    text='\uE0B0',
+                    background=colors['bg'],
+                    foreground=colors['grey'],
+                    padding=0,
+                    fontsize = 35,
                     ),
                 widget.Prompt(
                     prompt = "Run:",
