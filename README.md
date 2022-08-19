@@ -6,7 +6,7 @@
 ![issues](https://img.shields.io/github/issues/Spaxly/qtile-config)
 
 # Dependencies
-```yay -S polkit-gnome rofi qtile fish starship dunst flameshot neovim sddm lxappearance kvantum breeze-snow-cursor-theme catppuccin-gtk-theme gtop exa duf pavucontrol```
+```yay -S alacritty polkit-gnome rofi qtile fish starship dunst flameshot neovim sddm lxappearance kvantum breeze-snow-cursor-theme catppuccin-gtk-theme gtop exa duf pavucontrol```
 
 # Install
 ```cp -rf config/ ~/.config```
