@@ -1,6 +1,6 @@
 # Qtile Config
 
-![picture](https://github.com/Spaxly/qtile-config/blob/main/screenshot.png?raw=true)
+![picture](https://raw.githubusercontent.com/Spaxly/qtile-config/main/assets/screenshot.png)
 ![stars](https://img.shields.io/github/stars/Spaxly/qtile-config)
 ![license](https://img.shields.io/github/license/Spaxly/qtile-config)
 ![issues](https://img.shields.io/github/issues/Spaxly/qtile-config)
