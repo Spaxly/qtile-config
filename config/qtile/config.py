@@ -43,14 +43,26 @@ screens = [
                     format = "{name}",
                     foreground = colors['fg'],
                     empty_group_string = 'Desktop',
-                    width = 400,
+                    width = 320,
+                    ),
+                widget.TextBox(
+                    text='\uE0B0',
+                    background="#27292a",
+                    foreground=colors['grey'],
+                    padding=0,
+                    fontsize = 35,
+                    ),
+                widget.Net(
+                    background = "#27292a",
+                    foreground = colors['fg'],
+                    format = "{down} ↓↑ {up}",
                     ),
                 widget.TextBox(
                     text='\uE0B0',
                     background=colors['bg'],
-                    foreground=colors['grey'],
+                    foreground="#27292a",
                     padding=0,
-                    fontsize = 35,
+                    fontsize=35,
                     ),
                 widget.Prompt(
                     prompt = "Run:",
@@ -76,6 +88,11 @@ screens = [
                     padding=-15,
                     fontsize=108
                 ),
+                widget.CurrentLayoutIcon(
+                        background=colors['blue'],
+                        padding = 0,
+                        scale = 0.5,
+                        ),
                 widget.CurrentLayout(
                     background=colors['blue'],
                 ),
