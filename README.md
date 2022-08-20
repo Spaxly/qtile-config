@@ -9,7 +9,12 @@
 ```yay -S alacritty polkit-gnome rofi qtile fish starship dunst flameshot neovim sddm lxappearance kvantum breeze-snow-cursor-theme catppuccin-gtk-theme gtop exa duf pavucontrol```
 
 # Install
-```cp -rf config/ ~/.config```
+```cp -rf config/ ~/.config
+   cp -rf icons/ ~/.icons
+   cd ~/.icons/
+   tar -xf oomox-aesthetic-dark
+```
 
 # Credits
 adi1090x - for gradient rofi theme
+ilham25 - for icon theme
