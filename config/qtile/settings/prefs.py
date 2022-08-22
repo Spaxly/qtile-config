@@ -1,4 +1,4 @@
 terminal = "alacritty"
-browser = "firefox"
+browser = "brave"
 file_manager = "nemo"
 screenshot_tool = "flameshot gui"

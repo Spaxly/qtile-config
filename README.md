@@ -7,6 +7,7 @@
 
 # Dependencies
 ```yay -S alacritty polkit-gnome rofi qtile fish starship dunst flameshot neovim sddm lxappearance kvantum breeze-snow-cursor-theme catppuccin-gtk-theme gtop exa duf pavucontrol```
+Pijulius's picom fork is also required for animations, rounded corners, etc
 
 # Install
 ```cp -rf config/ ~/.config

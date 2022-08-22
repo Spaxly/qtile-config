@@ -146,7 +146,7 @@ screens = [
                         background=colors['yellow'],
                         ),
                 widget.Systray(
-                    icon_size = 50
+                    icon_size = 30
                         ),
             ],
             39,
