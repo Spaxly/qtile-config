@@ -1,5 +1,7 @@
 # Qtile Config
 
+### If you decide to use my config, please do give me credit in the README of your fork/repo.
+
 ![picture](https://raw.githubusercontent.com/Spaxly/qtile-config/main/assets/screenshot.png)
 ![stars](https://img.shields.io/github/stars/Spaxly/qtile-config)
 ![license](https://img.shields.io/github/license/Spaxly/qtile-config)
